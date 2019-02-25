@@ -1,7 +1,6 @@
 function deepCopyUsingJSON(obj) {
   return JSON.parse(JSON.stringify(obj))
 }
-
 function deepCopy(parent) {
   let parents = []
   let children = []
